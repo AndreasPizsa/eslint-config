@@ -1,0 +1,41 @@
+{
+  "name": "@andreaspizsa/eslint-config",
+  "version": "0.0.0",
+  "description": "`standard` based `eslint` config with flexibility for vertical alignment",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "commit": "git-cz",
+    "commitmsg": "validate-commit-msg",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreasPizsa/eslint-config.git"
+  },
+  "keywords": [
+    "eslintconfig",
+    "eslint",
+    "config"
+  ],
+  "peerDependencies": {
+    "eslint": ">= 3",
+    "eslint-config-standard": ">=10.2.1"
+  },
+  "author": "Andreas Pizsa (https://github.com/AndreasPizsa)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndreasPizsa/eslint-config/issues"
+  },
+  "homepage": "https://github.com/AndreasPizsa/eslint-config#readme",
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0",
+    "husky": "^0.14.3",
+    "validate-commit-msg": "^2.14.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
