@@ -1,6 +1,6 @@
 An [`eslint`](https://eslint.org) configuration based on [`standard`](https://standardjs.com), allowing for flexible vertical alignment and spacing
 
-[![js-standard-style](https://cdn.rawgit.com/standard/standard/master/badge.svg)](http://standardjs.com)
+[![js-standard-style](https://cdn.rawgit.com/standard/standard/master/badge.svg)](http://standardjs.com) [![Greenkeeper badge](https://badges.greenkeeper.io/AndreasPizsa/eslint-config.svg)](https://greenkeeper.io/)
 
 ## Usage
 ```bash
